@@ -71,7 +71,7 @@ class DonutChartView @JvmOverloads constructor(
 
     init {
         setBackgroundColor(Color.TRANSPARENT)
-        handleAttributes(obtainStyledAttributes(attrs, R.styleable.DonutChartAttrs))
+        //handleAttributes(obtainStyledAttributes(attrs, R.styleable.BarChartAttrs))
         handleEditMode()
     }
 
@@ -139,7 +139,7 @@ class DonutChartView @JvmOverloads constructor(
         }
     }
 
-    private fun handleAttributes(typedArray: TypedArray) {
+    /*private fun handleAttributes(typedArray: TypedArray) {
         typedArray.apply {
             donutThickness =
                 getDimension(R.styleable.DonutChartAttrs_chart_donutThickness, donutThickness)
@@ -152,7 +152,7 @@ class DonutChartView @JvmOverloads constructor(
             donutTotal = getFloat(R.styleable.DonutChartAttrs_chart_donutTotal, donutTotal)
             recycle()
         }
-    }
+    }*/
 
     companion object {
         private const val defaultThickness = 50f

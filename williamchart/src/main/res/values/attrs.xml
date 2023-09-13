@@ -53,4 +53,3 @@
         <attr name="chart_donutTotal" format="float" />
     </declare-styleable>
 </resources>
-
